@@ -38,6 +38,7 @@ const [click,fclick] = useState(null);
 <div className = "patience">
     <div className="container">
         <div id = "try" className='row col'>
+            <div className="input">
 <span id = "day">
  <p>Day</p>
 <input value = {time.day} name = "day" onChange = {Event} type="number" placeholder = "DD"/>
@@ -51,23 +52,26 @@ const [click,fclick] = useState(null);
 <span id = "year">
 <p>Year</p>
 <input value = {time.year} name = "year" type="number"
- onChange = {Event} placeholder = "YY"/>
+ onChange = {Event} placeholder = "YYYY"/>
 </span>
+</div>
 <button onClick={Git} id = "btn">
 <ArrowDownwardIcon style = {{color : "white"}}/>
 </button>
 </div>
 {!click ? (<span>
 <>   
- <h1><span id  = "One" >--</span>days</h1> 
+<h1><span id = "Three"> -- </span> years</h1>
 <h1><span id = "Two">   --</span> months</h1>
-<h1><span id = "Three"> -- </span> years</h1></> 
+<h1><span id  = "One" >--</span> days </h1> 
+</> 
 </span>) :(
 <span>
 <>   
- <h1><span id  = "One" > {time.days} </span>days</h1> 
+<h1><span id = "Three"> {time.years}</span> years</h1>
 <h1><span id = "Two">   {time.months}</span> months</h1>
-<h1><span id = "Three"> {time.years}</span> years</h1></> 
+<h1><span id = "One"> {time.days} </span> days</h1>
+</>
 </span>) }
 </div>
 </div>)
