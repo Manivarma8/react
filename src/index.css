@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Belanosima&family=DM+Sans:ital,opsz,wght@1,9..40,1000&family=Fira+Sans:wght@500&family=Kablammo&family=Lalezar&family=Lobster&family=Loved+by+the+King&family=Monoton&family=Orbitron&family=Poppins:ital,wght@1,400;1,500&family=Roboto:wght@300;500&family=Zeyada&display=swap');
+body {
+  background-color: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  color : white;
+  display : grid;
+  justify-content:center;
+  height : 100vh;
+  align-items: center;
+}
+button{
+width : 50px;
+height : 50px;
+background-color: rgb(59, 59, 211);
+border-radius: 50%;
+border-color : transparent;
+cursor : pointer;
+margin-left : 100px;
+margin-top : 70px;
+}
+
+.patience {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    width : 500px;
+    height : 400px;
+    background-color : rgb(225, 227, 228);
+    color : black;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    padding : 40px;
+    border-radius : 30px;
+    border : 2px solid white;
+    font-weight: bold;
+}
+h1{
+  text-align: start;  
+  color : rgb(16, 14, 14);
+  font-size: 50px;
+  border-radius : 40px;
+  font-weight : bold;
+  margin-bottom : -60px;
+  font-family: 'DM Sans', sans-serif;;
+}
+.container{
+  width : 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-self: center;
+  padding : 40px;
+  height : 300px;
+  background-color: white;
+  border-radius : 22px;
+  border-bottom-right-radius: 90px;
+  
+}
+input {
+  width : 50px;
+  height : 30px;
+  margin-bottom : 40px;
+  margin-left : 0px;
+  border : 1px solid rgb(238, 230, 230);
+  color : rgb(3, 1, 1);
+  font-weight : bold;
+}
+p{
+margin-left : 0px;
+font-size: 10px;
+color : grey;
+}
+#month{
+  margin-left : 20px;
+  margin-bottom: -90px;
+
+}
+
+#year{
+  margin-left : 20px;
+}
+.row{
+  display : flex;
+  flex-direction: row;
+  margin-bottom:-40px;
+  margin-top: -60px;
+}
+#try{
+display: flex;
+}
+#One {
+  color : rgb(59, 59, 211);
+  font-size: 60px;
+
+}
+#Two {
+color : rgb(59, 59, 211);
+font-size: 60px;
+}
+#Three {
+  color : rgb(59, 59, 211);
+  font-size: 60px;}
+
+
